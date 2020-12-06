@@ -5,7 +5,6 @@ export default class FilterCategory extends Component {
         return (
             <div className='filter'>
                 <div className="filter-result">{this.props.count} Products</div>
-                {/* <div className="filter-sort">Order{" "}<select></select></div> */}
                 <div className="filter-size">Category{" "}
                 <select value={this.props.size} onChange={this.props.filterProducts}>
                     <option value="">All</option>

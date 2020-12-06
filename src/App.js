@@ -8,8 +8,7 @@ class App extends React.Component{
     super();
     this.state={
       products: ProductsData.products,
-      size:"",
-      // sort:"",
+      size:""
     };
   }
   filterProducts = (event) =>{
