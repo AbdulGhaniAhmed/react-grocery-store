@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "_id": "veg1",
+            "title":"Eggplant",
+            "image":"images/veg1.png",
+            "description":"Fresh Eggplants",
+            "price":80,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "veg2",
+            "title":"Potato",
+            "image":"images/veg2.png",
+            "description":"Fresh and sweet Potatoes",
+            "price":60,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "veg3",
+            "title":"Tomato",
+            "image":"images/veg3.jpg",
+            "description":"Fresh tomatoes",
+            "price":110,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "fruit1",
+            "title":"Apple",
+            "image":"images/fruit1.jpg",
+            "description":"Fresh and Juicy Apples",
+            "price":180,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "fruit2",
+            "title":"pomegranate",
+            "image":"images/fruit2.png",
+            "description":"Red Pomegranate",
+            "price":280,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "fruit3",
+            "title":"Banana",
+            "image":"images/fruit3.png",
+            "description":"Tasty Banana",
+            "price":120,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "snack1",
+            "title":"Popcorn",
+            "image":"images/snack1.jpg",
+            "description":"Avaiable",
+            "price":40,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "snack2",
+            "title":"Salt chips",
+            "image":"images/snack2.jpg",
+            "description":"wow",
+            "price":30,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "snack3",
+            "title":"Cheese chips",
+            "image":"images/snack3.jpg",
+            "description":"wow",
+            "price":45,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": ",milk",
+            "title":"Milk",
+            "image":"images/milk.jpg",
+            "description":"Fresh Milk",
+            "price":110,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "eggs",
+            "title":"Eggs",
+            "image":"images/eggs.png",
+            "description":"Fresh Eggs",
+            "price":130,
+            "availableSizes":["XL","XXL"]
+        },
+        {
+            "_id": "bread",
+            "title":"Bread",
+            "image":"images/bread.png",
+            "description":"Fresh bread",
+            "price":80,
+            "availableSizes":["XL","XXL"]
+        }
+    ]
+}

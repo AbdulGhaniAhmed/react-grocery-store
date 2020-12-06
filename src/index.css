@@ -17,12 +17,12 @@ body,input,select,textarea{
   grid-template-areas: "header"
   "main"
   "footer";
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 5rem 1fr 3rem;
   grid-template-columns: 1 fr;
   height: 100%;
 }
 a:hover{
-  color: orangered;
+  color:blueviolet;
 }
 header{
   grid-area: header;
@@ -45,4 +45,69 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  flex: 3 60rem;
+}
+.sideBar{
+  flex: 1 20rem;
+}
+
+/* Items */
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+}
+.products li{
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55%;
+}
+.product img{
+  max-width: 37rem;
+  max-height: 20rem;
+}
+a{
+  text-decoration: none;
+}
+.price{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.price div,
+.price button{
+  text-align: center;
+  flex: 1;
+}
+.price div{
+  font-size: 2rem;
+}
+.price button{
+  padding: 1rem;
+  border: 0.1rem;
+  background-color: goldenrod;
+  cursor: pointer;
+}
+.price button:hover{
+  border: 0.1rem orangered solid;
+}
+.button-primary{
+  background-color: goldenrod;
 }
