@@ -111,3 +111,15 @@ a{
 .button-primary{
   background-color: goldenrod;
 }
+
+/* Filter */
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #333333 solid;
+}
+.filter div{
+  flex: 1;
+}
