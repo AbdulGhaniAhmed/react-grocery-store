@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Currency from "../currencyFormat";
+import Fade from "react-reveal/Flip";
 
 export default class Products extends Component {
     render() {
         return (
             <div>
+                <Fade bottom cascade>
                 <ul className="products">
                     {this.props.products.map((product)=>(
                     <li key={product._id}>
@@ -21,6 +23,7 @@ export default class Products extends Component {
                     </li>
                     ))}
                 </ul>
+                </Fade>
             </div>
         );
     } 

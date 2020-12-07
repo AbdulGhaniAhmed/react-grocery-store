@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Currency from "../currencyFormat";
+import Fade from "react-reveal/Fade";
 
 export default class Cart extends Component {
     render() {
@@ -12,6 +13,7 @@ export default class Cart extends Component {
                 (<div className="cart cart-header">You have {cartItems.length} items in cart</div>)}
                 <div>
                     <div className="cart">
+                        <Fade left cascade>
                          <ul className="cart-items">
                              {cartItems.map(item=>(
                                  <li key={item._id}>
@@ -29,6 +31,7 @@ export default class Cart extends Component {
                                  </li>
                              ))}
                          </ul>
+                         </Fade>
                     </div>
                     {cartItems.length !== 0 && 
                     (<div className="cart">
